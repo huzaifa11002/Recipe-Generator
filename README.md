@@ -1,62 +1,124 @@
 # AI Recipe Generator
 
 ## Overview
-AI Recipe Generator ek simple Streamlit-based application hai jo AI ka use karke diye gaye ingredients ke basis par ek recipe generate karta hai. Yeh Google Gemini AI model ka istemal karta hai taake accurate aur creative recipes generate ki ja sakein.
+AI Recipe Generator is a simple Streamlit-based application that generates a recipe based on the given ingredients using AI. It utilizes the Google Gemini AI model to create accurate and creative recipes.
 
 ## Features
-- User ke diye gaye ingredients ke basis par ek recipe generate karta hai.
-- Google Gemini AI ka use karta hai content generation ke liye.
-- Streamlit ka use karta hai interactive UI ke liye.
-- Simple aur user-friendly interface.
+- Generates a recipe based on user-provided ingredients.
+- Uses Google Gemini AI for content generation.
+- Utilizes Streamlit for an interactive UI.
+- Simple and user-friendly interface.
 
 ## Tech Stack
 - **Python**
-- **Streamlit** (Frontend UI ke liye)
-- **Google Gemini AI** (Recipe generation ke liye)
-- **Unified Virtualenv (UV)** (Project environment ke liye)
+- **Streamlit** (For frontend UI)
+- **Google Gemini AI** (For recipe generation)
+- **Unified Virtualenv (UV)** (For project environment)
 
 ## Installation
-1. **Repository clone karein**
+1. **Clone the repository**
    ```bash
    git clone <repository-url>
    cd ai-recipe-generator
    ```
 
-2. **Environment setup karein (UV ka use karein)**
+2. **Set up the environment (using UV)**
    ```bash
    uv venv env
-   source env/bin/activate  # (Windows ke liye: env\Scripts\activate)
+   source env/bin/activate  # (For Windows: env\Scripts\activate)
    ```
 
-3. **Dependencies install karein**
+3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Streamlit app run karein**
+4. **Run the Streamlit app**
    ```bash
    streamlit run app.py
    ```
 
 ## Usage
-1. Ingredients input field mein apne fridge ke available ingredients likhein.
-2. "Generate Recipe" button dabayein.
-3. AI aapke diye gaye ingredients ke basis par ek recipe generate karega.
-4. Recipe ko markdown format mein display kiya jayega.
+1. Enter the available ingredients in the input field.
+2. Click the "Generate Recipe" button.
+3. The AI will generate a recipe based on the given ingredients.
+4. The recipe will be displayed in markdown format.
 
 ## Live Demo
-Agar aap is AI Recipe Generator ko bina install kiye dekhna chahte hain, toh yahan visit karein:
+To try the AI Recipe Generator without installation, visit:
 [Live App](https://recipe-generator-huzaifa.streamlit.app/)
 
 ## Configuration
-Project Google Gemini AI ka use karta hai, isliye aapko ek API key configure karni hogi. `api_key` ko `.env` file mein store karna recommended hai.
+This project uses Google Gemini AI, so you need to configure an API key. It is recommended to store the `api_key` in a `.env` file.
 
 ## Contribution
-Agar aap is project mein kuch naya add karna chahte hain ya koi improvement suggest karna chahte hain, toh pull request ya issue raise karein.
+If you would like to contribute or suggest improvements, feel free to raise a pull request or an issue.
 
 ## License
-Yeh project open-source hai aur [MIT License](LICENSE) ke under distribute kiya gaya hai.
+This project is open-source and distributed under the [MIT License](LICENSE).
 
 ---
 Made with ❤️ using Streamlit & Google Gemini AI
 
+---
+
+# SecurePass - Password Generator & Strength Checker
+
+## Overview
+SecurePass is a simple and secure password generator and strength checker that helps users create strong passwords and evaluate their security.
+
+## Features
+- **Password Generator:** Customizable password generation (length, digits, symbols)
+- **Strength Checker:** Analyze the security of passwords
+- **Interactive UI:** Simple and intuitive design using Streamlit
+- **Real-time Security Check:** Instantly analyze generated passwords
+
+## Tech Stack
+- **Python**
+- **Streamlit** (For frontend UI)
+- **Modules (Custom Python functions)**
+- **Unified Virtualenv (UV)** (For project environment)
+
+## Installation
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd securepass-password-generator
+   ```
+
+2. **Set up the environment (using UV)**
+   ```bash
+   uv venv env
+   source env/bin/activate  # (For Windows: env\Scripts\activate)
+   ```
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Streamlit app**
+   ```bash
+   streamlit run app.py
+   ```
+
+## Usage
+1. **Password Generator:**
+   - Select the "Password Generator" tab.
+   - Choose password length, digits, and symbols.
+   - Click the "Generate Password" button.
+   - The generated password will be displayed on the screen.
+   
+2. **Password Strength Checker:**
+   - Select the "Check Strength" tab.
+   - Enter your password and click the "Check" button.
+   - The system will analyze your password and provide a security score.
+
+## Live Demo
+To try SecurePass without installation, visit:
+[Live App](https://password-generator-huzaifa.streamlit.app/)
+
+## Contribution
+If you would like to contribute or suggest improvements, feel free to raise a pull request or an issue.
+
+## Lice
